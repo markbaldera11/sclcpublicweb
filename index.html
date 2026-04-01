@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>South-Central Luzon Conference of the Seventh-day Adventist Church</title>
+  <meta name="description" content="Official website of the Central Luzon Conference of the Seventh-day Adventist Church.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="nav-placeholder"></div>
+
+  <main>
+    <section class="hero-section position-relative overflow-hidden">
+      <div class="hero-background" id="heroBackground"></div>
+      <div class="hero-overlay"></div>
+      <div class="container-xxl position-relative">
+        <div class="row align-items-center min-vh-75 gy-4">
+          <div class="col-lg-5">
+            <div class="hero-copy pe-lg-4">
+              <div class="hero-dots mb-4" id="heroDots"></div>
+              <span class="eyebrow text-uppercase">Latest News</span>
+              <h1 class="display-5 fw-bold mt-2 mb-3" id="heroTitle">Loading News...</h1>
+              <p class="lead text-white-50 mb-4" id="heroDesc">Fetching latest updates...</p>
+              <a href="#" id="heroBtn" class="btn btn-primary btn-lg text-uppercase">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="hero-card-wrap">
+              <div class="d-flex justify-content-end gap-2 mb-3">
+                <button class="btn hero-nav-btn" id="heroPrev" type="button" aria-label="Previous">
+                  <i class="bi bi-arrow-left"></i>
+                </button>
+                <button class="btn hero-nav-btn" id="heroNext" type="button" aria-label="Next">
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+              <div class="hero-cards-scroll" id="heroCards"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 info-section">
+      <div class="container-xxl py-lg-4">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <article class="card info-card h-100 border-0 shadow-sm">
+              <img src="/media/bg.png" class="card-img-top" alt="Who We Are">
+              <div class="card-body p-4 d-flex flex-column">
+                <h2 class="h3 mb-3">Who We Are</h2>
+                <p class="text-secondary flex-grow-1">
+                  We are a movement called by God to share the eternal gospel of Jesus with every nation, tribe, language, and people. Our mission is preparing hearts for Jesus’ soon return. We help people discover the Bible’s life-changing truths for themselves, finding the freedom, healing, and hope that only Jesus offers.
+                </p>
+                <div>
+                  <a class="btn btn-outline-primary" href="https://sclcadvetist.org" target="_blank" rel="noopener">Learn More</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="card info-card h-100 border-0 shadow-sm">
+              <img src="/media/PAUS.jpg" class="card-img-top" alt="What We Believe">
+              <div class="card-body p-4 d-flex flex-column">
+                <h2 class="h3 mb-3">What We Believe</h2>
+                <p class="text-secondary flex-grow-1">
+                  We believe in a God whose love never fails, even in a broken world. Despite the cosmic conflict that has raged since before time, God’s plan of salvation continues. Jesus is coming soon to restore our world to its original perfection. We await with joy the day when God will give us new hearts in a new earth, where we’ll live in His presence for eternity.
+                </p>
+                <div>
+                  <a class="btn btn-outline-primary" href="https://sclcadventist.org" target="_blank" rel="noopener">Learn More</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <article class="card info-card h-100 border-0 shadow-sm">
+              <img src="/media/TOUR.jpg" class="card-img-top" alt="What We Do">
+              <div class="card-body p-4 d-flex flex-column">
+                <h2 class="h3 mb-3">What We Do</h2>
+                <p class="text-secondary flex-grow-1">
+                  Guided by our mission to call all people to discipleship and to proclaim the three angels’ messages of Revelation 14:6–12, we unite churches, schools, and ministries across Central Luzon. Through worship, education, and compassionate service, we seek to reveal God’s love, uplift communities, and prepare every heart for Christ’s glorious return.
+                </p>
+                <div>
+                  <a class="btn btn-outline-primary" href="https://sclcadvetist.org" target="_blank" rel="noopener">Learn More</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="spotlight-section py-5">
+      <div class="container-xxl py-lg-4">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
+          <div>
+            <span class="eyebrow text-uppercase text-white-50">Featured Stories</span>
+            <h2 class="display-6 text-white mb-0">Spotlight</h2>
+          </div>
+          <div class="d-flex gap-2">
+            <button class="btn spotlight-nav-btn" id="spotlightPrev" type="button" aria-label="Previous spotlight">
+              <i class="bi bi-chevron-left"></i>
+            </button>
+            <button class="btn spotlight-nav-btn" id="spotlightNext" type="button" aria-label="Next spotlight">
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="spotlight-scroll" id="spotlightTrack">
+          <div class="spotlight-loading text-white-50">Loading latest articles...</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/script.js"></script>
+  <script src="assets/seperator.js"></script>
+</body>
+</html>
